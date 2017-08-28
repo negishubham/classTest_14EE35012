@@ -50,11 +50,10 @@
             android:id="@+id/button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="47dp"
+            android:text="Go_to_Graph"
             android:layout_alignParentBottom="true"
-            android:layout_marginBottom="106dp"
-            android:layout_marginEnd="21dp"
-            android:layout_toStartOf="@+id/gyro"
-            android:text="Go_to_Graph" />
+            android:layout_centerHorizontal="true" />
 
     </RelativeLayout>
 

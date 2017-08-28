@@ -84,7 +84,13 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
             netM.setText(String.format(Locale.getDefault(), "%.9f", m));
         }
 
+        if(sensorEvent.sensor.getType() == Sensor.TYPE_AMBIENT_TEMPERATURE) {
+            TextView LI = (TextView)findViewById(R.id.temp);
+            LI.setText("Temperature: " + sensorEvent.values[0]);
+
         }
+
+    }
 
     @Override
     protected void onResume() {
