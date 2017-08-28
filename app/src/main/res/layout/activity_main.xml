@@ -55,6 +55,24 @@
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true" />
 
+        <TextView
+            android:id="@+id/temp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/button"
+            android:layout_marginBottom="34dp"
+            android:layout_toEndOf="@+id/gyro"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/Temperature"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/temp"
+            android:layout_marginEnd="25dp"
+            android:layout_toStartOf="@+id/gyro"
+            android:text="Temperature" />
+
     </RelativeLayout>
 
     <TextView
